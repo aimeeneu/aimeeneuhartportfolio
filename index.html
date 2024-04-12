@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Aimee Neuhart's Portfolio</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="color: #F5CDC8">Aimee Neuhart</a>
+           <button class="navbar-toggler navbar-toggler-background navbar-toggler-custom" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Projects
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#task-tackler">TaskTackler</a></li>
+                            <li><a class="dropdown-item" href="#task-tackler-app-design">TaskTackler App Design</a></li>
+                            <li><a class="dropdown-item" href="#lift-link">LiftLink</a></li>
+                            <li><a class="dropdown-item" href="#lift-link-app-design">LiftLink App Design</a></li>
+                            <li><a class="dropdown-item" href="#quiz-template">Quiz App Template</a></li>
+                            <li><a class="dropdown-item" href="#studysaver-wix-website">StudySaver Wix Website</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="portfolio-heading-container">
+        <h1 class="portfolio-heading">Aimee Neuhart's Portfolio</h1>
+    </div>
+    <div class="about-container">
+  <img src="/Users/aimeen/Downloads/portfolio/portfolio.jpg" alt="Aimee Neuhart - Profile picture">
+  <h2>Aimee Neuhart</h2>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <div id="about" class="container">
+        <h2>Welcome to my Portfolio!</h2>
+        <p>Hello! I am Aimee Neuhart, a creative and results-oriented Digital Marketing aspirant with a strong 
+            foundation in web development and app development using JavaScript, Expo, and React. My portfolio 
+            showcases my marketing knowledge and technical skills, allowing me to bridge the gap between 
+            creativity and functionality in the digital space.</p>
+    </div>
+<br>
+<br>
+<div id="project-overview" class="container">
+  <h2>Overview of Projects</h2>
+  <h4>Click on each project to learn more!</h4>
+  <div class="project-overview-container">
+    <a href="#task-tackler" class="project-overview-box">
+      <div class="project-info">
+        <h3>TaskTackler</h3>
+        <p>To-Do list application.</p>
+      </div>
+    </a>
+      <a href="#task-tackler-app-design" class="project-overview-box">
+      <div class="project-info">
+        <h3>TaskTackler App Design</h3>
+        <p>A sleek to-do app design.</p>
+      </div>
+    </a>
+    <a href="#lift-link" class="project-overview-box">
+      <div class="project-info">
+        <h3>LiftLink</h3>
+        <p>Workout logging app allowing you to connect with friends!</p>
+      </div>
+    </a>
+      <a href="#lift-link-app-design" class="project-overview-box">
+      <div class="project-info">
+        <h3>LiftLink App Design</h3>
+        <p>An effective design for the Lift Link app.</p>
+      </div>
+    </a>
+    <a href="#quiz-template" class="project-overview-box">
+      <div class="project-info">
+        <h3>Quiz App Template</h3>
+        <p>A quiz with 3 question types.</p>
+      </div>
+    </a>
+    <a href="#studysaver-wix-website" class="project-overview-box">
+      <div class="project-info">
+        <h3>StudySaver Wix Website</h3>
+        <p>A website created with Wix to advertise a product for a class project.</p>
+      </div>
+    </a>
+  </div>
+</div>
+
+<br>
+<br>
+<div id="projects" class="container">
+    <h2>Projects</h2>
+    <div class="projects-container">
+        <div id="task-tackler" class="project-box">
+            <h3>TaskTackler</h3>
+            <p>To-Do list application.</p>
+            <video class="video-container" controls>
+            <source src="/Users/aimeen/Downloads/portfolio/tasktackler.mp4" type="video/mp4">
+            </video>
+            <p><b>Built With:</b> React Native, Expo</p>
+            <p><b>Summary: </b>TaskTackler is a minimalistic to-do app developed using React Native, 
+              demonstrating essential mobile development skills. The app allows users to add and 
+              delete tasks, showcasing a clean design and straightforward functionality. It additionally
+              features a log in portal, allowing users to keep their data saved and secure.</p>
+            <p><b>Key Features:</b><ol class="key-features-list">
+                <li>Add new tasks with ease.</li>
+                <li>Delete completed tasks with a simple tap.</li>
+                <li>Streamlined user interface for clarity and focus.</li>
+                <li>Create an account to keep data saved and secure.</li>
+                </ol></p>
+                <p><b>Skills Highlighted:</b><ol class="key-features-list">
+                  <li>Expo for cross-platform testing.</li>
+                  <li>React Native for Ul components and interaction.</li>
+                  <li>State management for real-time updates.</li>
+                  <li>Authentication using regular expressions.</li>
+                </ol></p>
+                <p><b>Design Choices:</b><ol class="key-features-list">
+                  <li>Light pink and dark-blue-green create contrast.</li>
+                  <li>The vibrant color choices contribute to the app's 
+                    overall appeal, making it visually stimulating and enjoyable to use.</li>
+                  <li>Large, intuitive buttons with high-contrast text guarantee a smooth user experience.</li>
+                </ol></p>
+                <p><b>Overcoming Issues:</b><ol class="key-features-list">
+                  <li>Despite initial hurdles, I was able to ensure smooth page loading for the project.</li>
+                  <li>Successfully overcame the spacing issues I encountered when adding new tasks.</li>
+                </ol></p>
+                <p><b>Outcome: </b>This project honed my React Native skills 
+                  and reinforced my ability to craft intuitive user experiences, 
+                  reflecting my commitment to simplicity and functionality in app design.</p>
+        </div>
+        <div id="task-tackler-app-design" class="project-box">
+            <h3>TaskTackler App Design</h3>
+            <p>A sleek to-do app design.</p>
+           <video class="video-container" controls>
+            <source src="/Users/aimeen/Downloads/portfolio/tasktacklerdesign.mp4" type="video/mp4">
+            </video>
+            <p><b>Designed With:</b> Figma</p>
+            <p><b>Summary: </b>My design for TaskTackler, the minimalistic to-do app, was developed using Figma.
+              It demonstrates the designs of essential screens of the app, showcasing the users ability to add and 
+              delete tasks as well as log in and sign up.</p>
+            <p><b>Key Features:</b><ol class="key-features-list">
+                <li>Sign up.</li>
+                <li>Log in.</li>
+                <li>List of tasks.</li>
+                <li>Profile.</li>
+                </ol></p>
+                <p><b>Skills Highlighted:</b><ol class="key-features-list">
+                  <li>User Interface (UI) Design.</li>
+                  <li>User Experience (UX) Design.</li>
+                  <li>Design with Figma.</li>
+                  <li>Understanding of To-Do App Functionality.</li>
+                </ol></p>
+                <p><b>Design Choices:</b><ol class="key-features-list">
+                  <li>Light pink and dark-blue-green create contrast.</li>
+                  <li>The vibrant color choices contribute to the app's 
+                    overall appeal, making it visually stimulating and enjoyable to use.</li>
+                  <li>Large, intuitive buttons with high-contrast text guarantee a smooth user experience.</li>
+                </ol></p>
+                <p><b>Overcoming Issues:</b><ol class="key-features-list">
+                  <li>Successfully created a balance between a visually appealing design and ensuring all necessary features are clear and easy to use.</li>
+                </ol></p>
+                <p><b>Outcome: </b>This project solidified my UI/UX design skills. It particularly honed my 
+                  ability to create clear and intuitive user journeys, emphasizing a minimalistic approach
+                  that prioritizes both user-friendliness and functionality. This project reflects my commitment 
+                  to designing applications that are not only visually appealing but also empower users with a seamless experience.</p>
+        </div>
+        <div id="lift-link" class="project-box">
+            <h3>LiftLink</h3>
+            <p>Workout logging app allowing you to connect with friends!</p>
+             <video class="video-container" controls>
+            <source src="/Users/aimeen/Downloads/portfolio/liftlink.mp4" type="video/mp4">
+            </video>
+            <p><b>Built With:</b> React Native, JavaScript</p>
+            <p><b>Summary:</b> A cross-platform stopwatch application designed for both iOS and Android. 
+              Features include time measurement, lap retention, and reset functionality.</p>
+            <p><b>Key Features:</b><ol class="key-features-list">
+                <li>Elapsed time measurement.</li>
+                <li>Lap button to record time intervals.</li>
+                <li>Reset button to clear measurements.</li>
+                <li>Repetition exercises with ability to add reps.</li>
+                </ol></p>
+                <p><b>Skills Highlighted:</b><ol class="key-features-list">
+                  <li>JavaScript for logic and functionality.</li>
+                  <li>React Native for cross-platform compatibility.</li>
+                </ol></p>
+                <p><b>Overcoming Issues:</b><ol class="key-features-list">
+                  <li>Successfully debugged and resolved errors that arose during the stopwatch implementation.</li>
+                  <li>Overcoming the initial errors in the page loading helped me develop stronger problem-solving skills in web development.</li>
+                </ol></p>
+                <p><b>Outcome:</b> This project enhanced my proficency in React Native and JavaScript, allowing me 
+                  to deliver a consistent user experience across different mobile opearting systems.</p>
+        </div>
+        <div id="lift-link-app-design" class="project-box">
+            <h3>LiftLink App Design</h3>
+            <p>An effective design for the LiftLink app.</p>
+             <video class="video-container" controls muted>
+            <source src="/Users/aimeen/Downloads/portfolio/liftlinkappdesign.mp4" type="video/mp4">
+            </video>
+            <p><b>Designed With:</b> Figma</p>
+            <p><b>Summary: </b>A design for LiftLink, a cross-platform stopwatch application designed for both iOS and Android. 
+              Features include time measurement, lap retention, maps, how-to videos, and ability to connect with friends.</p>
+            <p><b>Key Features:</b><ol class="key-features-list">
+                <li>Learn how to do exercises with a how-to video.</li>
+                <li>Log sets and repititions for repitition exercises.</li>
+                <li>Track time, laps, and course for duration exercises.</li>
+                <li>Post your workouts and view your friends' workouts.</li>
+                </ol></p>
+                <p><b>Skills Highlighted:</b><ol class="key-features-list">
+                  <li>User Interface (UI) Design.</li>
+                  <li>User Experience (UX) Design.</li>
+                  <li>Design with Figma.</li>
+                  <li>Understanding of Social Exercise App Functionality.</li>
+                </ol></p>
+                <p><b>Design Choices:</b><ol class="key-features-list">
+                  <li>Consistent color scheme to align with LiftLink branding.</li>
+                  <li>Navigation bar to easily navigate between pages.</li>
+                  <li>Simple images depicted the selected exercise.</li>
+                  <li>Vibrant color choices to contribute to the app's 
+                    overall appeal, making it visually stimulating and enjoyable to use.</li>
+                </ol></p>
+                <p><b>Overcoming Issues:</b><ol class="key-features-list">
+                    <li>Successfully created a balance between a visually appealing design 
+                      and ensuring all necessary features are clear and easy to use.</li>                
+                    </ol></p>
+                <p><b>Outcome: </b>This project solidified my UI/UX design skills. It particularly challenged
+                me to find a balance between prioritizing user needs and implementing a great design.</p>
+        </div>
+        <div id="quiz-template" class="project-box">
+            <h3>Quiz App Template</h3>
+            <p>A quiz with 3 question types.</p>
+             <video class="video-container" controls>
+            <source src="/Users/aimeen/Downloads/portfolio/quizapp.mp4" type="video/mp4">
+            </video>
+            <p><b>Built With:</b> React Native, Expo</p>
+            <p><b>Summary: </b>This template for a quiz app can handle 
+              different question types, including multiple-choice (single answer), multiple-answer 
+              (select all that apply), and true/false. </p>
+            <p><b>Key Features:</b><ol class="key-features-list">
+                <li>The app uses React Navigation to manage the flow 
+              between the question screen and a summary screen.</li>
+              <li>Summary screen with score after completion.</li>
+              <li>Feedback on correct/incorrect answers.</li>
+                </ol></p>
+                <p><b>Skills Highlighted:</b><ol class="key-features-list">
+                  <li>Expo for cross-platform testing.</li>
+                  <li>React Native for Ul components and interaction.</li>
+                  <li>Utilization of UI components from libraries.</li>
+                  <li>Ability to follow best practices in coding projects.</li>
+                </ol></p>
+                <p><b>Design Choices:</b><ol class="key-features-list">
+                  <li>Easy to read buttons to assist in the navigation process.</li>
+                  <li>Color coding of correct questions (green).</li>
+                  <li>Strikethrough incorrect answers.</li>
+                </ol></p>
+                <p><b>Overcoming Issues:</b><ol class="key-features-list">
+                  <li>Successfully tackled challenges in the scoring logic, ensuring accurate calculation of user performance.</li>
+                  <li>Demonstrated adaptability by overcoming initial hurdles with the screen stack, resulting in a smooth user navigation experience.</li>
+                </ol></p>
+                <p><b>Outcome: </b>This React Native quiz app project solidified my understanding of building mobile apps. 
+                  I honed my skills in UI design for different question types and tackled challenges in both scoring logic 
+                  and screen navigation, resulting in a well-rounded learning experience.</p>
+        </div>
+        <div id="studysaver-wix-website" class="project-box">
+            <h3>StudySaver Wix Website</h3>
+            <p>A website created with Wix to advertise a product for a class project.</p>
+             <video class="video-container" controls>
+            <source src="/Users/aimeen/Downloads/portfolio/studysaver.mp4" type="video/mp4">
+            </video>
+            <p><b>Built With:</b> Wix</p>
+            <p><b>Summary: </b>I created this website using Wix for a class project in which my team 
+            invented StudySaver. StudySaver is a browser extension for allows students that scans their assignments
+            and creates a comprehensive study plan. </p>
+            <p><b>Key Features:</b><ol class="key-features-list">
+                <li>Various screens providing necessary information.</li>
+                <li>Buttons that link to corresponding pages.</li>
+                <li>Images that align with the usage of the product.</li>
+                </ol></p>
+                <p><b>Skills Highlighted:</b><ol class="key-features-list">
+                  <li>Creating websites with Wix</li>
+                  <li>User Interface (UI) Design.</li>
+                  <li>User Experience (UX) Design.</li>
+                  <li>Content creation and visual communication.</li>
+                </ol></p>
+                <p><b>Design Choices:</b><ol class="key-features-list">
+                  <li>Vibrant colors that align with the branding of the product.</li>
+                  <li>Separate pages for information to avoid overwhelming the user.</li>
+                  <li>Contrasting colors for easily readable text.</li>
+                </ol></p>
+                <p><b>Overcoming Issues:</b><ol class="key-features-list">
+                  <li>Successfully overcame problems with the sizing of content.</li>
+                </ol></p>
+                <p><b>Outcome: </b>This Wix website for StudySaver, a fictional student productivity tool, 
+                  served as a valuable learning experience.  Building the site honed my UX design skills by 
+                  focusing on clear navigation and separate pages for information.  It also reinforced basic 
+                  web design principles through the use of relevant visuals and contrasting colors for readability.
+                </p>
+        </div>
+    </div>
+</div>
+<br>
+    <div id="contact" class="container">
+        <h2>Contact</h2>
+        <p>Let's get in touch!<br>
+            Email: <a href="mailto:aimee23728@gmail.com" target="_blank" style="color: #F5CDC8; text-decoration: underline;">aimee23728@gmail.com</a><br>
+            LinkedIn: <a href="https://www.linkedin.com/in/aimee-neuhart" target="_blank" style="color: #F5CDC8; text-decoration: underline;"">Aimee Neuhart</a><br>
+            GitHub: <a href="https://github.com/aimeeneu" target="_blank" style="color: #F5CDC8; text-decoration: underline;"">aimeeneu</a>
+        </p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
