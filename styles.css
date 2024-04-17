@@ -20,7 +20,7 @@ a:hover {
 }
 
 .portfolio-heading-container {
-  background-image: url("/Users/aimeen/Downloads/portfolio/portfolioheader.jpg");
+  background-image: url("./portfolioheader.jpg");
   background-size: cover;
   background-position: center;
   height: 40vh;
